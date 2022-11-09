@@ -31,7 +31,7 @@ let d = c * 3
 console.log(d)
 
 
-// .toFixed(x) -> Permite limitar la cantidad de decimales que se desea manejar.
+// .toFixed(x) -> Permite limitar la cantidad de decimales que se desea manejar. Para redondear hacia arriba solo se pone la variable y el toFixed() asi: x.toFixed()
 //             -> Esta funcion tiene particularidad y es que devuelve el resultado como string (Cadeba de texto)
 console.log(d.toFixed(4)) // => Resultado: 9.9000
 console.log(d.toFixed(2)) // => Resultado: 9.90
